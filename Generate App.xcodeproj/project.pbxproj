@@ -8,13 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		09C3D64D20F8712B0048B9D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C3D64C20F8712B0048B9D2 /* AppDelegate.swift */; };
-		09C3D64F20F8712B0048B9D2 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C3D64E20F8712B0048B9D2 /* FirstViewController.swift */; };
-		09C3D65120F8712B0048B9D2 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C3D65020F8712B0048B9D2 /* SecondViewController.swift */; };
 		09C3D65420F8712B0048B9D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09C3D65220F8712B0048B9D2 /* Main.storyboard */; };
-		09C3D65620F8712D0048B9D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09C3D65520F8712D0048B9D2 /* Assets.xcassets */; };
 		09C3D65920F8712D0048B9D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09C3D65720F8712D0048B9D2 /* LaunchScreen.storyboard */; };
 		09C3D66420F8712D0048B9D2 /* Generate_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C3D66320F8712D0048B9D2 /* Generate_AppTests.swift */; };
 		09C3D66F20F8712D0048B9D2 /* Generate_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C3D66E20F8712D0048B9D2 /* Generate_AppUITests.swift */; };
+		09C3D68020F871D40048B9D2 /* PasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C3D67D20F871D40048B9D2 /* PasswordViewController.swift */; };
+		09C3D68120F871D40048B9D2 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C3D67E20F871D40048B9D2 /* MenuViewController.swift */; };
+		09C3D68720F878A60048B9D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09C3D68620F878A50048B9D2 /* Assets.xcassets */; };
+		09C3D68920F880A40048B9D2 /* AboutApplicationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C3D68820F880A40048B9D2 /* AboutApplicationViewController.swift */; };
+		09C3D68D20F88D6C0048B9D2 /* SlideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C3D68C20F88D6C0048B9D2 /* SlideViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,10 +39,7 @@
 /* Begin PBXFileReference section */
 		09C3D64920F8712B0048B9D2 /* Generate App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Generate App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		09C3D64C20F8712B0048B9D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		09C3D64E20F8712B0048B9D2 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		09C3D65020F8712B0048B9D2 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		09C3D65320F8712B0048B9D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		09C3D65520F8712D0048B9D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		09C3D65820F8712D0048B9D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		09C3D65A20F8712D0048B9D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		09C3D65F20F8712D0048B9D2 /* Generate AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Generate AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,6 +48,11 @@
 		09C3D66A20F8712D0048B9D2 /* Generate AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Generate AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		09C3D66E20F8712D0048B9D2 /* Generate_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Generate_AppUITests.swift; sourceTree = "<group>"; };
 		09C3D67020F8712D0048B9D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09C3D67D20F871D40048B9D2 /* PasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasswordViewController.swift; sourceTree = "<group>"; };
+		09C3D67E20F871D40048B9D2 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		09C3D68620F878A50048B9D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		09C3D68820F880A40048B9D2 /* AboutApplicationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutApplicationViewController.swift; sourceTree = "<group>"; };
+		09C3D68C20F88D6C0048B9D2 /* SlideViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +103,15 @@
 		09C3D64B20F8712B0048B9D2 /* Generate App */ = {
 			isa = PBXGroup;
 			children = (
+				09C3D67E20F871D40048B9D2 /* MenuViewController.swift */,
+				09C3D67D20F871D40048B9D2 /* PasswordViewController.swift */,
 				09C3D64C20F8712B0048B9D2 /* AppDelegate.swift */,
-				09C3D64E20F8712B0048B9D2 /* FirstViewController.swift */,
-				09C3D65020F8712B0048B9D2 /* SecondViewController.swift */,
 				09C3D65220F8712B0048B9D2 /* Main.storyboard */,
-				09C3D65520F8712D0048B9D2 /* Assets.xcassets */,
 				09C3D65720F8712D0048B9D2 /* LaunchScreen.storyboard */,
+				09C3D68620F878A50048B9D2 /* Assets.xcassets */,
 				09C3D65A20F8712D0048B9D2 /* Info.plist */,
+				09C3D68820F880A40048B9D2 /* AboutApplicationViewController.swift */,
+				09C3D68C20F88D6C0048B9D2 /* SlideViewController.swift */,
 			);
 			path = "Generate App";
 			sourceTree = "<group>";
@@ -233,8 +239,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				09C3D65920F8712D0048B9D2 /* LaunchScreen.storyboard in Resources */,
-				09C3D65620F8712D0048B9D2 /* Assets.xcassets in Resources */,
 				09C3D65420F8712B0048B9D2 /* Main.storyboard in Resources */,
+				09C3D68720F878A60048B9D2 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,9 +265,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				09C3D65120F8712B0048B9D2 /* SecondViewController.swift in Sources */,
+				09C3D68020F871D40048B9D2 /* PasswordViewController.swift in Sources */,
+				09C3D68120F871D40048B9D2 /* MenuViewController.swift in Sources */,
+				09C3D68D20F88D6C0048B9D2 /* SlideViewController.swift in Sources */,
 				09C3D64D20F8712B0048B9D2 /* AppDelegate.swift in Sources */,
-				09C3D64F20F8712B0048B9D2 /* FirstViewController.swift in Sources */,
+				09C3D68920F880A40048B9D2 /* AboutApplicationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,7 +449,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "ca.spollock.Generate-App";
+				PRODUCT_BUNDLE_IDENTIFIER = "ca.spollock.Generate-Password-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -459,7 +467,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "ca.spollock.Generate-App";
+				PRODUCT_BUNDLE_IDENTIFIER = "ca.spollock.Generate-Password-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

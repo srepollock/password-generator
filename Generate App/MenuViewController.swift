@@ -61,10 +61,10 @@ class ManuViewController: UIViewController {
     // Passing information over segue
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if let passwordViewController = segue.destination as? PasswordViewController {
-            passwordViewController.length = UInt32(lengthSlider.value)
-            passwordViewController.capitals = UInt32(capitalsSlider.value)
-            passwordViewController.numbers = UInt32(numbersSlider.value)
-            passwordViewController.characters = UInt32(charactersSlider.value)
+            passwordViewController.passwordLength = UInt32(lengthSlider.value)
+            passwordViewController.capitalsCount = UInt32(capitalsSlider.value)
+            passwordViewController.numbersCount = UInt32(numbersSlider.value)
+            passwordViewController.charactersCount = UInt32(charactersSlider.value)
         }
     }
     @IBAction func generatePassword(_ sender: UIButton) {

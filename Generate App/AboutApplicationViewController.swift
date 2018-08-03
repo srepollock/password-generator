@@ -16,16 +16,15 @@ class AboutApplicationViewController: UIViewController {
     
     @IBAction func sendMail(_ sender: Any) {
         let email = "spencer@spollock.ca"
-        if let url = URL(string: "mailto:\(email)" + "?subject=Password Generator Reply") {
-            if #available(iOS 10.0, *) {
-                UIApplication.shared.open(url)
-            } else {
-                UIApplication.shared.openURL(url)
-            }
+        guard let url = URL(string: "mailto:" + email + "?subject=Password%20Generator%20Reply") else {
+            fatalError("Did not create URL")
         }
+        UIApplication.shared.open(url, options: [:], completionHandler: nil)
     }
     @IBAction func openWebsite(_ sender: Any) {
-        UIApplication.shared.openURL(NSURL(string: "http://www.spollock.ca")! as URL)
+        guard let url = URL(string: "http://www.spollock.ca")
+            else { fatalError("Expected a valid URL") }
+        UIApplication.shared.open(url, options: [:], completionHandler: nil)
     }
     @IBAction func writeReview(_ sender: Any) {
         // TODO: Change XXX.. to application id

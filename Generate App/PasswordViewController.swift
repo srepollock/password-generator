@@ -67,10 +67,10 @@ class PasswordViewController: UIViewController {
     func randomSwapSort<T>(_ array: Array<T>) -> Array<T> {
         guard array.count > 1 else { return array }
         let middle = array.count / 2
-        var ll = Array(array[0...middle - 1])
-        var rr = Array(array[middle...array.count - 1])
-        var left = randomSwapSort(ll)
-        var right = randomSwapSort(rr)
+        let ll = Array(array[0...middle - 1])
+        let rr = Array(array[middle...array.count - 1])
+        let left = randomSwapSort(ll)
+        let right = randomSwapSort(rr)
         return randomSort(left, right)
     }
     func randomSort<T>(_ left: Array<T>, _ right: Array<T>) -> Array<T> {

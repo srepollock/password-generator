@@ -335,7 +335,7 @@ I have created this application to aid users in creating more secure passwords. 
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1am-oB-XRF">
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1am-oB-XRF" userLabel="Password">
                                 <rect key="frame" x="148" y="318" width="78" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="a8i-Cj-3kX"/>

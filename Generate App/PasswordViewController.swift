@@ -79,18 +79,18 @@ class PasswordViewController: UIViewController {
         var leftCount = 0
         var rightCount = 0
         var output = Array<T>()
-        while (leftCount < left.count && rightCount < right.count) {
-            // left
+        while (leftCount < left.count) {
             let lIndex = Int(arc4random_uniform(UInt32(leftCopy.count)))
-            let rIndex = Int(arc4random_uniform(UInt32(rightCopy.count)))
             let ll = leftCopy[lIndex]
-            let rr = rightCopy[rIndex]
             leftCopy.remove(at: lIndex)
-            rightCopy.remove(at: rIndex)
-            // right
             output.append(ll)
-            output.append(rr)
             leftCount += 1
+        }
+        while (rightCount < right.count) {
+            let rIndex = Int(arc4random_uniform(UInt32(rightCopy.count)))
+            let rr = rightCopy[rIndex]
+            rightCopy.remove(at: rIndex)
+            output.append(rr)
             rightCount += 1
         }
         return output;
